@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Kevin',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -23,7 +23,7 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: '44aee2817896047f889b0fffc0af9f56',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -53,14 +53,14 @@ const CONFIG = {
     {
       id: '3',
       name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      icon: 'check-square',
+      link: 'https://todoist.com/app/today',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'University',
+      icon: 'book-open',
+      link: 'https://ava.furg.br/',
     },
     {
       id: '5',
@@ -88,30 +88,31 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Lush',
+        link: 'https://music.youtube.com/playlist?list=OLAK5uy_n060kwaeRWtJNo-74HbW3-oPAFFT2vQ3Y&feature=share',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Lo-Fi',
+        link: 'https://music.youtube.com/playlist?list=RDCLAK5uy_kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM&feature=share&playnext=1',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Brown Noise',
+        link: 'https://music.youtube.com/watch?v=TKHjJnEaVrQ&feature=share',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Rain',
+        link: 'https://rainymood.com',
       },
     ],
+
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Instagram',
+        link: 'https://instagram.com/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Pinterest',
+        link: 'https://pinterest.com/',
       },
       {
         name: 'Dribbble',
@@ -119,7 +120,7 @@ const CONFIG = {
       },
       {
         name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        link: 'https://webz.telegram.org',
       },
     ],
   },
